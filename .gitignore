@@ -1,5 +1,9 @@
 # Ignore bundler config
 /.bundle
+.idea/*
+.idea
+.idea/workspace.xml
+.idea/app1.iml
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -14,4 +18,3 @@ doc/
 *~
 .project
 .DS_Store
-.idea/*
