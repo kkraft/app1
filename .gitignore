@@ -1,7 +1,7 @@
 # Ignore bundler config
 /.bundle
-.idea/*
-.idea
+*.idea/*
+*.idea*
 .idea/workspace.xml
 .idea/app1.iml
 
