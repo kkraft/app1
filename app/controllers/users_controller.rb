@@ -36,6 +36,12 @@ class UsersController < ApplicationController
     end
   end
 
+  def destroy
+    User.find(params[:id]).destroy
+    flash[:success] = "User destroyed."
+    redirect_to users_path
+  end
+
   def index
     @users = User.paginate(page: params[:page])
   end
